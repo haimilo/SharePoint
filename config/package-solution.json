@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "readreceipt-client-side-solution",
+    "id": "68da87c5-dcaa-4598-a9b8-6fe543164e19",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "readreceipt description"
+      },
+      "longDescription": {
+        "default": "readreceipt description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "readreceipt Feature",
+        "description": "The feature that activates elements of the readreceipt solution.",
+        "id": "91dc0bcd-f2e2-4418-81c6-e391c999b600",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/readreceipt.sppkg"
+  }
+}
